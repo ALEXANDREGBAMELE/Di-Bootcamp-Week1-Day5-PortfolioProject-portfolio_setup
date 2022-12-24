@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+    text-align: center;
+}
+.navbar{
+    background-color: rgb(255, 98, 0) !important
+  }
+.navbar ul{
+  text-align: center;
+  display: flex;
+}
+.navbar ul li{
+  
+  padding: 2%;
+  list-style-type: none;1
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+.navbar{
+  display: flex;
+  align-content: flex-end;
+}
+header{
+  background-image: url("../images/headerback.jpg");
+  border-color: aliceblue;
+  border: 4px solid white;
+  padding-top: 30%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 10%;
+  
+}
+
+.container .folioo img{ 
+  width: 150px !important;
+  height: 150px !important;
+}
+.wrapper{
+  border: 15%;
+}
+img .img-blog{
+  width: 100px;
+  height: 200px;
+}
+
+h2{
+  color: rgb(250, 153, 34)!important
+}
+.profile{
+  border-radius: 50%;
+  
+}
+
+.cadre{
+  
+  height: 100%;
+  margin-left: 2%;
+  padding: 5%;
+
+}
+.card{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.text-color-orange{
+  color: #fd7e14;
+}
+.form{
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+input{
+  background-color: #fd7e14;
+}
+.btnn {
+  width: 100%;
+  background-color: #fd7e14 !important;
+}
+
+.nom{
+  background-color: #fd7e14 !important;
+
+  width: 250px;
+  border-bottom-left-radius:70% ;
+  height: 30px;
+  text-align: center;
+  font-size: medium;
+  color: white;
+}
+.card-bodyteam{
+
+  width: 250px;
+  height: 50px;
+  text-align: start;
+  color: rgb(0, 0, 0);
+  background-color:white;
+  padding-bottom: 5%;
+}
+.container{
+  border: 0 !important;
+}
+
+.contente {
+  display: inline;
+  -ms-flex-align:center ;
+  align-items: center;
+ flex-direction: row;
+ padding-left: 15%;
+}
